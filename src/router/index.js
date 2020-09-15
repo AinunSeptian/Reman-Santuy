@@ -1,6 +1,6 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import { Splash, Welcome, Register, SuccesLogin, Login, Home } from '../pages';
+import { Splash, Welcome, Register, SuccesLogin, Login, Home, ScanQR } from '../pages';
 import { ZonePage, ChatPage, LivePage, AccountPage } from '../pages/Pages Navigation';
 
 const Stack = createStackNavigator();
@@ -55,6 +55,11 @@ const Router = () => {
                 }}/>
             <Stack.Screen name="AccountPage"
                 component={AccountPage}
+                options={{
+                    headerShown: false,
+                }}/>
+            <Stack.Screen name="ScanQR"
+                component={ScanQR}
                 options={{
                     headerShown: false,
                 }}/>

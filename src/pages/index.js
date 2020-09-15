@@ -4,6 +4,7 @@ import Register from './Register';
 import SuccesLogin from './SuccesLogin';
 import Login from './Login';
 import Home from './Home';
+import ScanQR from './ScanQR';
 
 
 export {Splash, 
@@ -12,4 +13,5 @@ export {Splash,
         SuccesLogin, 
         Login, 
         Home,
-        };
+        ScanQR
+};
