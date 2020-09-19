@@ -86,7 +86,7 @@ const Register = ({navigation}) => {
                         </View>
                         </View>
                     </Modal>
-                    </View>
+            </View>
             {/* Akhir Modal */}
         </View>
     );

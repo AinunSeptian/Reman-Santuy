@@ -54,7 +54,9 @@ const Home = ({navigation}) => {
               width={30}
               height={30}
               style={{marginLeft: 9, marginTop: 15}}
-              onPress={() => {handleGoTo('ScanQR')}}
+              onPress={() => {
+                handleGoTo('ScanQR');
+              }}
             />
           </View>
         </View>
